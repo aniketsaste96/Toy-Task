@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Toy Tale</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="toy-header">
+      <img
+        src="https://www.indianbarcode.com/images/product/2112.jpg"
+        alt="toy-header"
+      />
+    </div>
+
+    <div class="container">
+      <form action="" class="add-toy-form">
+        <h3>Create a Toy</h3>
+        <input
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter Toys Name"
+          class="input-text"
+        />
+        <br />
+        <br />
+        <input
+          type="text"
+          name="image"
+          value=""
+          placeholder="Enter Toys Image URL"
+          class="input-text"
+        />
+        <br />
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Create New toy"
+          class="submit"
+        />
+      </form>
+    </div>
+    <p id="head">Render Toys <button id="new-toy-btn">Add a New Toy</button></p>
+
+    <div id="toy-collection"></div>
+  </body>
+</html>
